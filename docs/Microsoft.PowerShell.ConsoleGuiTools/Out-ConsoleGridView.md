@@ -116,7 +116,7 @@ The example uses the `-Filter` paramter to filter for all proceses with a name t
 ### Example 7: Pass multiple items through Out-ConsoleGridView
 
 ```PowerShell
-PS C:\> Get-Process | Out-ConsoleGridView -PassThru | Export-Csv -Path .\ProcessLog.csv
+PS C:\> Get-Process | Out-ConsoleGridView -OutputMode Multiple | Export-Csv -Path .\ProcessLog.csv
 ```
 
 This command lets you select multiple processes from the **Out-ConsoleGridView** window.
